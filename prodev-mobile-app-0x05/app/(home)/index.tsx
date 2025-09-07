@@ -7,6 +7,7 @@ import {
   TextInput,
   Image,
   ScrollView,
+  Dimensions,
   TouchableHighlight,
 } from "react-native";
 import { FILTERS, SAMPLE_DATA } from "@/constants/data";
@@ -43,7 +44,7 @@ const Home = () => {
                   style={{
                     flex: 1,
                   }}
-                  source={require("@/assets/images/sample-image.png")}
+                  source={require("@/assets/images/mansion.png")}
                   resizeMode="contain"
                 />
                 <Text>{filter}</Text>
